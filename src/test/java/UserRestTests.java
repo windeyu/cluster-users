@@ -21,6 +21,6 @@ public class UserRestTests {
     @Test
     public void exampleTest() {
         assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/test",
-                String.class)).contains("Hello World!");
+                String.class)).contains("Active profile");
     }
 }
