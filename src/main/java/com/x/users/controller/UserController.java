@@ -16,6 +16,6 @@ public class UserController {
 
     @RequestMapping("/test")
     public String test() {
-        return "Active profile: " + profile;
+        return "Current active profile: " + profile;
     }
 }
